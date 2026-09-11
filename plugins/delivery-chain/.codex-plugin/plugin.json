@@ -1,0 +1,18 @@
+{
+  "name": "delivery-chain",
+  "version": "0.1.0",
+  "description": "Web delivery skills with an evidence journal and interactive execution graph.",
+  "author": {
+    "name": "Paweł Ciechanowicz"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Delivery Chain",
+    "shortDescription": "Chain, dowody i historia wykonania.",
+    "longDescription": "Prowadzenie web delivery z lokalnym dziennikiem zdarzeń i interaktywnym podglądem etapów.",
+    "developerName": "Paweł Ciechanowicz",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Poprowadź safe-web-delivery i aktualizuj dziennik oraz widok po każdym etapie."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "delivery-chain-public",
+  "interface": {
+    "displayName": "Delivery Chain Public"
+  },
+  "plugins": [
+    {
+      "name": "delivery-chain",
+      "source": {
+        "source": "local",
+        "path": "./plugins/delivery-chain"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
