@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1110" viewBox="0 0 1120 1110" role="img" aria-labelledby="title desc">
+<title id="title">Delivery Chain — schemat demonstracji</title><desc id="desc">Pełny graf: plan, implementacja, zamrożenie kandydata, testy, bezpieczeństwo, review, bramka maszynowa, akceptacja człowieka, bramka finalna, publikacja i smoke test. W fikcyjnym przykładzie ukończono kroki do bramki maszynowej. Po błędzie review wykonano poprawkę.</desc>
+<rect width="1120" height="1110" rx="20" fill="#f7faf8"/>
+<g font-family="Arial, sans-serif" fill="#20312a">
+<text x="40" y="48" font-size="13" letter-spacing="2">DELIVERY CHAIN · DEMO</text>
+<text x="40" y="91" font-size="31" font-weight="700">Pełny proces. Widoczne wykonanie.</text>
+<text x="40" y="122" font-size="16" fill="#53675c">Fikcyjny przykład po poprawce — oczekuje na decyzję człowieka.</text>
+<path d="M360 236 V250.5 H360 V265" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M360 331 V345.5 H360 V360" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M360 426 V440.5 H155 V455" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M360 426 V440.5 H360 V455" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M360 426 V440.5 H565 V455" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M155 521 V535.5 H360 V550" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M360 521 V535.5 H360 V550" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M565 521 V535.5 H360 V550" fill="none" stroke="#168561" stroke-width="2"/>
+<path d="M360 616 V630.5 H360 V645" fill="none" stroke="#bfcfc5" stroke-width="2"/>
+<path d="M360 711 V725.5 H360 V740" fill="none" stroke="#bfcfc5" stroke-width="2"/>
+<path d="M360 806 V820.5 H360 V835" fill="none" stroke="#bfcfc5" stroke-width="2"/>
+<path d="M360 901 V915.5 H360 V930" fill="none" stroke="#bfcfc5" stroke-width="2"/>
+<path d="M655 488 H680 V298 H450" fill="none" stroke="#ad771c" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="270" y="170" width="180" height="66" rx="10" fill="white" stroke="#168561" stroke-width="2"/>
+<text x="360" y="197" text-anchor="middle" font-size="14" font-weight="700">Plan</text>
+<text x="360" y="219" text-anchor="middle" font-size="11" fill="#168561">PASS</text>
+<rect x="270" y="265" width="180" height="66" rx="10" fill="white" stroke="#168561" stroke-width="2"/>
+<text x="360" y="292" text-anchor="middle" font-size="14" font-weight="700">Implementacja</text>
+<text x="360" y="314" text-anchor="middle" font-size="11" fill="#168561">PASS</text>
+<rect x="270" y="360" width="180" height="66" rx="10" fill="white" stroke="#168561" stroke-width="2"/>
+<text x="360" y="387" text-anchor="middle" font-size="14" font-weight="700">Zamrożenie kandydata</text>
+<text x="360" y="409" text-anchor="middle" font-size="11" fill="#168561">PASS</text>
+<rect x="65" y="455" width="180" height="66" rx="10" fill="white" stroke="#168561" stroke-width="2"/>
+<text x="155" y="482" text-anchor="middle" font-size="14" font-weight="700">Testy</text>
+<text x="155" y="504" text-anchor="middle" font-size="11" fill="#168561">PASS</text>
+<rect x="270" y="455" width="180" height="66" rx="10" fill="white" stroke="#168561" stroke-width="2"/>
+<text x="360" y="482" text-anchor="middle" font-size="14" font-weight="700">Bezpieczeństwo</text>
+<text x="360" y="504" text-anchor="middle" font-size="11" fill="#168561">PASS</text>
+<rect x="475" y="455" width="180" height="66" rx="10" fill="white" stroke="#168561" stroke-width="2"/>
+<text x="565" y="482" text-anchor="middle" font-size="14" font-weight="700">Code review</text>
+<text x="565" y="504" text-anchor="middle" font-size="11" fill="#168561">PASS</text>
+<rect x="270" y="550" width="180" height="66" rx="10" fill="white" stroke="#168561" stroke-width="2"/>
+<text x="360" y="577" text-anchor="middle" font-size="14" font-weight="700">Bramka maszynowa</text>
+<text x="360" y="599" text-anchor="middle" font-size="11" fill="#168561">PASS</text>
+<rect x="270" y="645" width="180" height="66" rx="10" fill="white" stroke="#bfcfc5" stroke-width="2"/>
+<text x="360" y="672" text-anchor="middle" font-size="14" font-weight="700">Akceptacja człowieka</text>
+<text x="360" y="694" text-anchor="middle" font-size="11" fill="#53675c">OCZEKUJE</text>
+<rect x="270" y="740" width="180" height="66" rx="10" fill="white" stroke="#bfcfc5" stroke-width="2"/>
+<text x="360" y="767" text-anchor="middle" font-size="14" font-weight="700">Bramka finalna</text>
+<text x="360" y="789" text-anchor="middle" font-size="11" fill="#53675c">OCZEKUJE</text>
+<rect x="270" y="835" width="180" height="66" rx="10" fill="white" stroke="#bfcfc5" stroke-width="2"/>
+<text x="360" y="862" text-anchor="middle" font-size="14" font-weight="700">Publikacja</text>
+<text x="360" y="884" text-anchor="middle" font-size="11" fill="#53675c">OCZEKUJE</text>
+<rect x="270" y="930" width="180" height="66" rx="10" fill="white" stroke="#bfcfc5" stroke-width="2"/>
+<text x="360" y="957" text-anchor="middle" font-size="14" font-weight="700">Smoke test</text>
+<text x="360" y="979" text-anchor="middle" font-size="11" fill="#53675c">OCZEKUJE</text>
+<rect x="725" y="170" width="355" height="385" rx="14" fill="white" stroke="#d3ded7"/>
+<text x="750" y="205" font-size="19" font-weight="700">Co wydarzyło się w demo?</text>
+<text x="750" y="248" font-size="15">1. Przygotowano pierwszą wersję.</text>
+<text x="750" y="288" font-size="15" fill="#b73542">2. Review wykrył brak etykiety.</text>
+<text x="750" y="328" font-size="15" fill="#94600e">3. Poprawiono kod i kandydata.</text>
+<text x="750" y="368" font-size="15" fill="#168561">4. Ponowne kontrole: PASS.</text>
+<text x="750" y="416" font-size="15">Dalsze etapy czekają.</text>
+<text x="750" y="448" font-size="15">PASS nie oznacza APPROVED.</text>
+<text x="750" y="501" font-size="13" fill="#53675c">W HTML: kliknij etap lub cofnij historię.</text>
+<circle cx="750" cy="610" r="6" fill="#168561"/><text x="769" y="615" font-size="14">Zaliczone w demonstracji</text>
+<circle cx="750" cy="649" r="6" fill="#bfcfc5"/><text x="769" y="654" font-size="14">Pełny proces — kroki oczekujące</text>
+<path d="M744 688 H758" stroke="#ad771c" stroke-width="2" stroke-dasharray="4 3"/><text x="769" y="693" font-size="14">Powrót do poprawki</text>
+<path d="M40 1030 H1080" stroke="#d3ded7"/>
+<text x="40" y="1065" font-size="13" fill="#53675c">Schemat poglądowy · dane fikcyjne · interaktywny widok: examples/demo.py</text>
+</g></svg>

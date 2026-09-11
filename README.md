@@ -1,4 +1,8 @@
-# Delivery Chain
+# Delivery Chain — workflow i graf wykonania dla Codexa
+
+A Codex plugin for structured web delivery: planning, independent reviews, release
+gates, and an interactive execution graph. Includes eight skills and a local
+evidence journal. **Skill instructions, documentation, and the interface are in Polish.**
 
 Plugin Codexa prowadzący pracę nad stroną lub aplikacją webową przez plan,
 implementację, weryfikację i odbiór. Zawiera osiem skilli oraz lokalny dziennik
@@ -14,6 +18,23 @@ z interaktywnym grafem HTML. Instrukcje i interfejs są po polsku.
 
 HTML jest generowany po zapisaniu zdarzenia. Otwarty plik wymaga odświeżenia;
 nie jest to automatyczna telemetria ani stale aktualizowany panel Codexa.
+
+## Przykład przebiegu
+
+![Schemat demonstracji: plan, implementacja i kontrole zaliczone; akceptacja człowieka i publikacja oczekują. Pętla pokazuje poprawkę po błędzie review.](docs/images/execution-overview.svg)
+
+Statyczny schemat neutralnej demonstracji, nie zrzut interfejsu ani raport
+z rzeczywistego wdrożenia. Zielone kroki pokazują wykonanie; szare — dalszą
+część pełnego procesu. Przerywana linia oznacza powrót do poprawki po review.
+
+Interaktywny graf z historią zdarzeń wygenerujesz poleceniem:
+
+```bash
+python3 examples/demo.py --output /tmp/delivery-chain-demo.html
+```
+
+Otwórz zapisany HTML w przeglądarce. Kliknięcie etapu pokazuje jego szczegóły,
+a suwak historii pozwala prześledzić kolejne próby.
 
 ## Wymagania
 
@@ -100,6 +121,13 @@ pozwala go odnaleźć. Publiczna historia obejmuje wyłącznie ten pakiet, neutr
 przykład i dokumentację; nie zawiera historii projektów, na których pracowano.
 
 Fingerprint snapshotu odrzuca dowiązania symboliczne do katalogów w zakresie kandydata; wykluczone katalogi, np. `node_modules` i `docs/quality`, pozostają pomijane.
+
+## Autor i projekt
+
+Autorem Delivery Chain jest **Paweł Ciechanowicz**. Plugin powstał w ramach
+[ai-edu-lab](https://ai-edu-lab.pl/) jako narzędzie do porządkowania pracy
+z Codexem: od planu, przez sprawdzanie zmian, po decyzję o publikacji.
+Możesz wykorzystać go we własnym projekcie zgodnie z licencją MIT.
 
 ## Licencja
 
